@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>£nigma to €lectrical</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- HEADER -->
+
+    <header class="header">
+
+        <div class="logo">
+            ⚡ £nigma to €lectrical
+        </div>
+
+        <button class="menu-btn"
+                id="menuBtn">
+            ☰
+        </button>
+
+    </header>
+
+
+    <!-- HERO SECTION -->
+
+    <main id="top">
+
+        <section class="hero">
+
+            <div class="hero-content">
+
+                <p class="eyebrow">
+                    ELECTRICAL ENGINEERING
+                </p>
+
+                <h1>
+                    Decode the<br>
+                    World of Electricity.
+                </h1>
+
+                <p class="hero-description">
+                    Your organized space for Electrical Engineering
+                    notes, unit PDFs, formulas and PYQs.
+                </p>
+
+                <button class="explore-btn"
+                        id="exploreBtn">
+                    Explore Subjects →
+                </button>
+
+            </div>
+
+            <div class="scroll-indicator">
+                SCROLL
+            </div>
+
+        </section>
+
+
+        <!-- SEARCH -->
+
+        <section class="search-section">
+
+            <div class="search-box">
+
+                <span class="search-icon">⌕</span>
+
+                <input
+                    type="search"
+                    id="searchInput"
+                    placeholder="Search subjects..."
+                    autocomplete="off">
+
+                <button
+                    type="button"
+                    class="mic-btn"
+                    id="micBtn"
+                    aria-label="Voice search">
+                    🎙️
+                </button>
+
+            </div>
+
+            <p
+                class="voice-status"
+                id="voiceStatus">
+            </p>
+
+        </section>
+
+
+        <!-- SUBJECTS -->
+
+        <section class="subjects"
+                 id="subjects">
+
+            <div class="section-title">
+
+                <p>
+                    STUDY SPACE
+                </p>
+
+                <h2>
+                    Subjects
+                </h2>
+
+            </div>
+
+
+            <div class="subject-grid">
+
+
+                <!-- 01 : CIRCUIT -->
+
+                <a
+                    href="circuit.html"
+                    class="subject-card"
+                    data-search="electrical circuit networks network theory">
+
+                    <div class="subject-icon">
+                        🔌
+                    </div>
+
+                    <div class="subject-info">
+
+                        <span>
+                            01
+                        </span>
+
+                        <h3>
+                            Electrical Circuit & Networks
+                        </h3>
+
+                        <p>
+                            Circuit Analysis & Network Theorems
+                        </p>
+
+                    </div>
+
+                </a>
+
+
+                <!-- 02 : MEASUREMENTS -->
+
+                <a
+                    href="measurements.html"
+                    class="subject-card"
+                    data-search="electrical measurements instrumentation measurement voltage current">
+
+                    <div class="subject-icon">
+                        📏
+                    </div>
+
+                    <div class="subject-info">
+
+                        <span>
+                            02
+                        </span>
+
+                        <h3>
+                            Electrical Measurements & Instrumentation
+                        </h3>
+
+                        <p>
+                            Measurement & Instrumentation
+                        </p>
+
+                    </div>
+
+                </a>
+
+
+                <!-- 03 : DC MACHINES -->
+
+                <a
+                    href="dc-machines.html"
+                    class="subject-card"
+                    data-search="dc machines transformers">
+
+                    <div class="subject-icon">
+                        ⚙️
+                    </div>
+
+                    <div class="subject-info">
+
+                        <span>
+                            03
+                        </span>
+
+                        <h3>
+                            DC Machines & Transformers
+                        </h3>
+
+                        <p>
+                            Electrical Machines
+                        </p>
+
+                    </div>
+
+                </a>
+
+
+                <!-- 04 : POWER SYSTEM -->
+
+                <a
+                    href="power-system.html"
+                    class="subject-card"
+                    data-search="power generation transmission distribution">
+
+                    <div class="subject-icon">
+                        ⚡
+                    </div>
+
+                    <div class="subject-info">
+
+                        <span>
+                            04
+                        </span>
+
+                        <h3>
+                            Power Generation, Transmission & Distribution
+                        </h3>
+
+                        <p>
+                            Electrical Power System
+                        </p>
+
+                    </div>
+
+                </a>
+
+
+                <!-- 05 : PYTHON -->
+
+                <a
+                    href="python-programming.html"
+                    class="subject-card"
+                    data-search="python programming">
+
+                    <div class="subject-icon">
+                        💻
+                    </div>
+
+                    <div class="subject-info">
+
+                        <span>
+                            05
+                        </span>
+
+                        <h3>
+                            Python Programming
+                        </h3>
+
+                        <p>
+                            Programming & Problem Solving
+                        </p>
+
+                    </div>
+
+                </a>
+
+
+            </div>
+
+        </section>
+
+
+        <!-- SYLLABUS -->
+
+        <section
+            class="quick-access"
+            id="study-tools">
+
+            <div class="section-title">
+
+                <p>
+                    STUDY RESOURCES
+                </p>
+
+                <h2>
+                    Syllabus
+                </h2>
+
+            </div>
+
+
+            <div class="tools-grid">
+
+
+                <!-- THEORETICAL SYLLABUS -->
+
+                <div class="tool-card syllabus-card">
+
+                    <div class="syllabus-icon">
+                        📚
+                    </div>
+
+                    <div class="syllabus-content">
+
+                        <h3>
+                            Theoretical Syllabus
+                        </h3>
+
+                        <span class="syllabus-line"></span>
+
+                        <p>
+                            Subject-wise theoretical syllabus
+                        </p>
+
+                    </div>
+
+
+                    <div class="tool-actions">
+
+                        <!-- OPEN PDF -->
+
+                        <a
+                            href="pdf-viewer.html?pdf=pdf/theoretical-syllabus.pdf"
+                            class="tool-btn open-btn">
+
+                            <span>◉</span>
+
+                            <strong>
+                                Open PDF
+                            </strong>
+
+                            <span class="arrow">
+                                ›
+                            </span>
+
+                        </a>
+
+
+                        <!-- DOWNLOAD PDF -->
+
+                        <a
+                            href="pdf/theoretical-syllabus.pdf"
+                            download
+                            class="tool-btn download-btn">
+
+                            <span>⇩</span>
+
+                            <strong>
+                                Download PDF
+                            </strong>
+
+                            <span class="arrow">
+                                ›
+                            </span>
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- PRACTICAL SYLLABUS -->
+
+                <div class="tool-card syllabus-card">
+
+                    <div class="syllabus-icon">
+                        🛠️
+                    </div>
+
+                    <div class="syllabus-content">
+
+                        <h3>
+                            Practical Syllabus
+                        </h3>
+
+                        <span class="syllabus-line"></span>
+
+                        <p>
+                            Subject-wise practical syllabus
+                        </p>
+
+                    </div>
+
+
+                    <div class="tool-actions">
+
+                        <!-- OPEN PDF -->
+
+                        <a
+                            href="pdf-viewer.html?pdf=pdf/practical-syllabus.pdf"
+                            class="tool-btn open-btn">
+
+                            <span>◉</span>
+
+                            <strong>
+                                Open PDF
+                            </strong>
+
+                            <span class="arrow">
+                                ›
+                            </span>
+
+                        </a>
+
+
+                        <!-- DOWNLOAD PDF -->
+
+                        <a
+                            href="pdf/practical-syllabus.pdf"
+                            download
+                            class="tool-btn download-btn">
+
+                            <span>⇩</span>
+
+                            <strong>
+                                Download PDF
+                            </strong>
+
+                            <span class="arrow">
+                                ›
+                            </span>
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </section>
+<!-- ABOUT £NIGMA -->
+
+<section class="about-section" id="about">
+
+    <div class="section-title">
+
+        <p>
+            ABOUT THE PLATFORM
+        </p>
+
+        <h2>
+            About £nigma
+        </h2>
+
+    </div>
+
+
+    <div class="about-content">
+
+        <div class="about-heading">
+
+            <span>
+                ⚡
+            </span>
+
+            <h3>
+                Engineering is not about
+                memorising. It's about understanding.
+            </h3>
+
+        </div>
+
+
+        <p>
+            £nigma to €lectrical is an independent
+            learning platform built for Electrical
+            Engineering students.
+        </p>
+
+        <p>
+            Our goal is simple — to bring the
+            important resources of Electrical
+            Engineering into one organized and
+            easy-to-use space.
+        </p>
+
+        <p>
+            From subjects and syllabus to notes,
+            formulas, practical resources and
+            previous-year questions, £nigma is
+            designed to help students learn,
+            revise and build a stronger
+            understanding of Electrical Engineering.
+        </p>
+
+
+        <div class="about-mission">
+
+            <span>
+                OUR MISSION
+            </span>
+
+            <p>
+                Make Electrical Engineering
+                simpler to explore, easier to
+                understand and more organized
+                to study.
+            </p>
+
+        </div>
+
+
+        <div class="about-tagline">
+
+            <strong>
+                DECODE.
+            </strong>
+
+            <strong>
+                UNDERSTAND.
+            </strong>
+
+            <strong>
+                MASTER.
+            </strong>
+
+        </div>
+
+    </div>
+
+</section>
+    </main>
+     <!-- BACK TO TOP BUTTON -->
+
+<button
+    class="back-to-top"
+    id="backToTop"
+    aria-label="Back to top">
+    ↑
+</button>
+
+    <!-- FOOTER -->
+
+    <footer class="site-footer">
+
+        <div class="footer-container">
+
+
+            <!-- BRAND -->
+
+            <div class="footer-brand">
+
+                <h2>
+                    ⚡ £nigma to €lectrical
+                </h2>
+
+                <p>
+                    Decode. Understand. Master Electrical Engineering.
+                </p>
+
+            </div>
+
+
+            <!-- FOUNDER -->
+
+            <div class="footer-founder">
+
+                <span>
+                    FOUNDED BY
+                </span>
+
+                <h3>
+                    Karan Rudra Choudhary
+                </h3>
+
+                <p>
+                    Electrical Engineering
+                </p>
+
+            </div>
+
+
+        </div>
+
+
+        <!-- FOOTER BOTTOM -->
+
+        <div class="footer-bottom">
+
+            <p>
+                © 2026 £nigma to €lectrical. All rights reserved.
+            </p>
+
+            <p>
+                Made for Electrical Engineering students ⚡
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <!-- JAVASCRIPT -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
